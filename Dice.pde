@@ -1,29 +1,20 @@
-void setup()
-{
-	noLoop();
+/*
+class Die {
+  int size, myX, myY, myNum;
+  int roll() {
+    return((int)(Math.random()*6)+1)
+  }
+  void show() {
+    fill(
+};
+*/
+void setup(){
+  size(200,200);
 }
-void draw()
-{
-	//your code here
-}
-void mousePressed()
-{
-	redraw();
-}
-class Die //models one single dice cube
-{
-	//variable declarations here
-	
-	Die(int x, int y) //constructor
-	{
-		//variable initializations here
-	}
-	void roll()
-	{
-		//your code here
-	}
-	void show()
-	{
-		//your code here
-	}
+
+void draw() {
+noLoop();
+rect(100,100,40,40);
+ellipse(120,120,10,10);
+
 }
