@@ -10,7 +10,7 @@ void setup(){
 
 void draw() {
   for(int i = 0; i<20; i++){
-    for(int j = 15; j>0; j-= 1) {
+    for(int j = 19; j>0; j-= 1) {
       if(die1 != null) {
         die1.show(i*50 + 3, j*50 - 10);
         die1.roll();
